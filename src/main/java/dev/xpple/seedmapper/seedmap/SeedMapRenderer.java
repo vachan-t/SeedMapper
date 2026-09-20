@@ -152,7 +152,7 @@ public class SeedMapRenderer {
     }
 
     public static boolean shouldRenderFeatures(BiomeScale biomeScale) {
-        return biomeScale.val <= BiomeScale.SCALE_16.val;
+        return biomeScale.val <= BiomeScale.SCALE_64.val;
     }
 
     public void renderBiomes(GuiGraphicsExtractor guiGraphicsExtractor) {
